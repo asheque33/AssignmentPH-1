@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    font-family: 'verdana';
+}
+
+.main_part {
+    width: 1360px;
+    margin: auto;
+}
+
+.main-header {
+    background-image:url(./images/banner/banner2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 810px;
+    text-align: right;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    height: 220px;
+    width: 430px;
+    margin-left: 750px;
+    padding-top: 215px;
+    margin-bottom: 5px;
+}
+
+.header-desc {
+    font-weight: 400;
+    font-size: 13px;
+    height: 78px;
+    width: 400px;
+    line-height: 25px;
+    text-align: right;
+    color: #444343;
+    margin-left: 780px;
+    margin-bottom: 30px;
+}
+
+.header-button {
+    background-color: #f15b22;
+    color: white;
+    width: 130px;
+    height: 55px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 180px;
+    padding: 20px 17px;
+    text-align: center;
+}
+
+.banner-section-1 {
+    display: flex;
+ margin-top: 200px;   
+ width: 50%;
+}
+.first-banner-section-photo {
+    background-color: #fcded3;
+}
+
+.first-banner-section {
+    align-items: center;
+    margin-top: 220px;
+}
+.first-section-header {
+    text-align: left;
+    width: 240px;
+    height: 100px;
+    line-height: 40px;
+    font-size: 30px;
+    margin-left: 200px;
+   }   
+    .first-section-description {
+        width: 430px;
+        height: 120px;
+        margin-left: 200px;
+    }
+    ul li{
+        list-style-type: none;
+        margin-left: 160px;
+    }
+    ul li:before {
+        content: '✓'; 
+        color: #16d887;
+        margin-right: 10px;
+       }
+       .second-section{
+        text-align: center;
+        margin-top: 20px;
+       }
+       .banner-section-2{
+        display: flex;
+        justify-content: space-around;
+    }
+  .second-section-image{
+    margin-top: 50px;
+  }
+  .second-section-header{
+    margin-top: 30px;
+  }
+  .second-section-blog{
+    margin-top: 15px;
+  }
+  .third-section {
+    background-image: url(images/watch.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 8px;
+    width: 900px;
+    height: 220px;
+    margin-left: 192px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 80px 0px 0px 50px;
+}
+.overlay{
+  width: 900px;
+    height: 300px;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.last-section{
+  margin: 40px 0 60px 0 ;
+}
+.sponsors-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.last-section-sponsors{
+  display: flex;
+  justify-content: space-evenly;
+}
+.call-button{
+    margin-top: 15px;
+    color: #f15b22;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+  .footer{
+    display: flex;
+    width:auto;
+    height: 500px;
+    background-color: #000000;
+  }
+  .first-part-footer{
+    color:white;
+  }
+  .first-part-footer{
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 400px;
+    height: 300px;
+  }
+   .first-part-header{
+    margin-bottom: 20px;
+   }     
+   .first-part-blog{
+    margin-bottom: 15px;
+   }
+   .email-part{
+    margin-bottom: 15px;
+   }
+   .communication-part{
+    margin-bottom: 15px;
+   }
+.hyper-link{
+    display: flex;
+} 
+  .link-image{
+    margin-right: 20px;
+  }
+.footer-last-part{
+    margin-top: 150px;
+    margin-left: 230px;
+    display: block;
+}
+.flast-part-header{
+    color: white;
+    font-size: 30px;
+}
+.btn-email{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    padding: 10px 70px 10px 10px;
+}
+.btn-submit{
+    padding: 15px 30px;
+    color: #f15b22;
+    border: 0;
+    border-radius: 10px;
+}
+
+    
+        
