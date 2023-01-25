@@ -2,12 +2,10 @@
     margin: 0;
     font-family: 'verdana';
 }
-
 .main_part {
     width: 1360px;
     margin: auto;
 }
-
 .main-header {
     background-image:url(./images/banner/banner2.png);
     background-position: left;
